@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador - Challenge 1 - Alura</title>
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="./js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="./images/logo.jpg" alt="Logo de Alura">
+        </header>
+        <main>
+            <form>
+                
+                <section class="botones">
+                    <input type="text" id="input-text" class="ingreso" placeholder="Ingrese el texto aqui"> 
+                    <p id="indicacion">Solo letras minúsculas y sin acentos</p>   
+                    <input type="button" id="boton1" onclick="encriptar()" value="Encriptar">
+                    <input type="button" id="boton2" onclick="desencriptar()" value="Desencriptar">
+                </section>
+                <section class="rectangulo">
+                    <img src="./images/detective.png" alt="imagen de detective" id="img">
+                    <h1 class="text1" id="texto">Ningún mensaje fue encontrado</h1>
+                    <textarea class="text2" id="texto2" cols="80" rows="8">Ingresa el texto que deseas encriptar o desencriptar</textarea>
+                    <input type="button" id="copiar" onclick="copy()" value="Copiar">
+                </section>
+                
+            </form>
+        </main>
+        <footer>
+            <p>Creado por Federico Aquino para ONE + Alura Latam</p>
+        </footer>
+    </body>
+</html>

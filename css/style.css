@@ -1,0 +1,140 @@
+main{
+    display: flex;
+}
+body{
+    font-family: 'Inter';
+    font-style: normal;
+    background: white;
+}
+header{
+    padding: 20px 0;
+}
+.logo{
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+    padding: 0px 20px;
+    gap: 40px;
+}
+.ingreso{
+    width: 577px;
+    height: 48px;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    border: none;
+    color: black;
+}
+.botones{
+    padding: 0px;
+    gap: 24px;
+    width: 680px;
+    height: 67px;
+    margin-left: 240px;   
+}
+#indicacion{
+    width: 300px;
+    height: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    color:gray;
+    opacity: 0.8;
+    margin-bottom: 20px;
+    margin-top: 400px;
+}
+#boton1{
+padding: 24px;
+gap: 8px;
+width: 328px;
+height: 67px;
+background: darkgray;
+border-radius: 24px;
+border: 1px solid black;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color:black;
+cursor: pointer;
+}
+#boton1:hover{
+    transform: scale(0.9);
+}
+#boton2{
+padding: 24px;
+gap: 8px;
+width: 328px;
+height: 67px;
+background: darkgray;
+border: 1px solid black;
+border-radius: 24px;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color:black;
+cursor: pointer;
+}
+#boton2:hover{
+    transform: scale(0.9);
+}
+.rectangulo{
+    width: 400px;
+    height: 544px;
+    margin-left: 1000px;
+    background: lightgray;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+#img{
+    width: 336px;
+    height: 304px;
+    margin-top: 43px;
+    margin-left: 32px;
+}
+.text1{
+    width: 336px;
+    height: 58px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: gray;
+    margin-left: 40px;
+    cursor: default;
+}
+.text2{
+    width: 336px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: black;
+    border:none;
+    background-color: lightgray;
+    margin: 40px;
+}
+#copiar{
+    width: 328px;
+    height: 67px;
+    border: 1px solid black;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-left: 40px;
+    margin-top: 200px;
+    display: none;
+}
+#copiar:hover{
+    transform: scale(0.9);
+}
+footer{
+    text-align: center;
+    padding: 40px;
+}
+
